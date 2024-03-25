@@ -1,26 +1,87 @@
-.imagecarousel {
-    position: relative;
-    height: 233px;
-    margin-bottom: 30px;
+img 
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+div.scroll-container 
+{
     display: flex;
-    width: fit-content;
-    gap: 20px;
-  }
-  
-  .imagecarousel img {
-    margin: 0px 0px;
-    box-shadow: 2px 2px 8px #8a8a8a;
-  }
-  
-  .imagecarousel {
-    animation: bannermove 50s linear infinite;
-  }
-  
-  @keyframes bannermove {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+}
+
+.NamesF /* Names of the Female geckos */
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(99, 5, 5);
+    text-align: center;
+    margin-top: 10px;
+    background-color: seashell;
+}
+
+.NamesM /* Names of the Male geckos */
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(12, 41, 230);
+    text-align: center;
+    margin-top: 10px;
+    background-color: seashell;
+}
+
+.Unknown /* Names of the Unknown geckos */
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    background-color: seashell;
+}
+
+.MainLinks /* Links to other pages */
+{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   
+}
+
+.Title /* The Gecko Cave */
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 115, 196);
+    text-align: center; 
+    margin-top: 10px;  
+    background-color: rgb(150, 139, 10);
+}
+
+.Location /* The page you are on now */
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(140, 36, 10);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Order /* The order of the geckos */
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(7, 155, 128, 0.923);       
+}
+
+body
+{
+    background-color: black;
+    
+}
