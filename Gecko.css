@@ -1,24 +1,52 @@
-h1
+.Title
 {
-    text-align: center;
-    font-size: 75px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(232, 49, 36);
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 115, 196);
+    text-align: center; 
+    margin-top: 30px;  
+    background-color: rgb(150, 139, 10);
 }
-
-
-
-p
+ 
+body
 {
-    font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-        
-}
-
-#linkArea
-{
-    padding: 25px;
-    word-spacing: 55px;
     font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    background-image: -webkit-radial-gradient(circle, rgb(255, 255, 255), rgb(172, 169, 13));
+}
+
+.Into
+{
+    font-size: 50px;    
+    color: rgb(3, 0, 0);   
+    width: 50%;
+    height: 100%;
+    background-color: rgba(11, 148, 228, 0.315);
+
+    margin-left: 55px;
+}
+
+.MainLinks
+{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.Images1
+{
+    width: 600px;
+    height:400px;
+    position: absolute; right: 150px; top: 313px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 40%;      
+}
+
+.Images2
+{
+    width: 600px;
+    height:400px;
+    position: absolute; right: 150px; top: 703px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 40%;      
 }
