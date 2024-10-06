@@ -1,52 +1,80 @@
-.Title
+body
+{  
+    background-image: url('Backgrounds/1.jpg');    
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+h1
 {
     font-size: 100px;
     font-weight: bold;
     color: rgb(8, 115, 196);
     text-align: center; 
     margin-top: 30px;  
-    background-color: rgb(150, 139, 10);
+    background-color: #f7d6c0;
+}
+
+.Logo
+{
+   width: 90%;
+   margin-top: 20px;
+}
+
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: -75px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color:rgb(219, 232, 216);     
 }
  
-body
+a
 {
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    background-image: -webkit-radial-gradient(circle, rgb(255, 255, 255), rgb(172, 169, 13));
+   padding: 20px;  
 }
 
 .Into
 {
-    font-size: 50px;    
-    color: rgb(3, 0, 0);   
-    width: 50%;
-    height: 100%;
-    background-color: rgba(11, 148, 228, 0.315);
-
-    margin-left: 55px;
+    font-size: 40px;    
+    color: rgb(3, 0, 0);       
+    background-color:#96ad90;
+    margin-top: 100px;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    border: 5px solid rgb(8, 8, 8);
+    border-radius: 25px;
+    text-align: justify;
 }
 
-.MainLinks
+
+.column /* this is to make the columns for the images */
 {
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    float: center;
+    width: 22%;
+    margin: .5%;  
+    
 }
 
-.Images1
+.row:after /* this is to clear the floats after the columns */
 {
-    width: 600px;
-    height:400px;
-    position: absolute; right: 150px; top: 313px;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 40%;      
+    content: "";
+    display: table;
+    clear: both;
+    
+
 }
 
-.Images2
+.image /* this is to make the images the same size */
 {
-    width: 600px;
-    height:400px;
-    position: absolute; right: 150px; top: 703px;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 40%;      
+    border: 7px solid rgb(8, 8, 8);    
+    border-radius: 175px; 
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);    
 }

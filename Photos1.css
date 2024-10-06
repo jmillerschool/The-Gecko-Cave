@@ -1,11 +1,80 @@
-img 
+body
 {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.5s;
+    background-color: #96ad90;   
+    
 }
+
+h1
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 115, 196);
+    text-align: center; 
+    margin-top: 30px;  
+    background-color: #f7d6c0;
+}
+
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: -75px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: rgb(219, 232, 216);    
+}
+
+.Logo
+{
+   width: 90%;
+   margin-top: 20px;
+}
+
+
+a
+{
+   padding: 20px;  
+}
+
+main
+{          
+    background-color: rgb(219, 232, 216);
+    margin-top: 100px;
+    margin-left: 10%;   
+    width: 80%;
+    padding: 10px;
+    text-align: center   
+}
+
+.Location /* The page you are on now */
+{
+    font-size: 50px;
+    font-weight: bold;
+    color:#3a4a3d;   
+
+}
+
+.employees
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    background-color: seashell;
+  
+}
+
+.Order /* The order of the geckos */
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #3a4a3d;
+    margin-top: 10px;
+   
+}
+
+
 
 div.scroll-container 
 {
@@ -14,7 +83,18 @@ div.scroll-container
     gap: 10px;
     padding: 10px;
     scroll-snap-type: x mandatory;
+    width: 97%;
+    height: 300px; 
+    background-color: #f7d6c0;      
 }
+  
+section
+{
+    
+    border: 5px dashed #3a4a3d;
+}
+
+
 
 .NamesF /* Names of the Female geckos */
 {
@@ -24,6 +104,9 @@ div.scroll-container
     text-align: center;
     margin-top: 10px;
     background-color: seashell;
+    border: 5px solid rgb(243, 8, 8);
+    width: 50%;
+    margin-left: 25%;
 }
 
 .NamesM /* Names of the Male geckos */
@@ -34,6 +117,9 @@ div.scroll-container
     text-align: center;
     margin-top: 10px;
     background-color: seashell;
+    border: 5px solid rgb(8, 8, 243);
+    width: 50%;
+    margin-left: 25%;
 }
 
 .Unknown /* Names of the Unknown geckos */
@@ -44,44 +130,4 @@ div.scroll-container
     text-align: center;
     margin-top: 10px;
     background-color: seashell;
-}
-
-.MainLinks /* Links to other pages */
-{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-   
-}
-
-.Title /* The Gecko Cave */
-{
-    font-size: 100px;
-    font-weight: bold;
-    color: rgb(8, 115, 196);
-    text-align: center; 
-    margin-top: 10px;  
-    background-color: rgb(150, 139, 10);
-}
-
-.Location /* The page you are on now */
-{
-    font-size: 70px;
-    font-weight: bold;
-    color: rgb(140, 36, 10);
-    text-align: center;
-    margin-top: 10px;
-}
-
-.Order /* The order of the geckos */
-{
-    font-size: 50px;
-    font-weight: bold;
-    color: rgba(7, 155, 128, 0.923);       
-}
-
-body
-{
-    background-color: black;
-    
 }
