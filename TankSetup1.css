@@ -1,6 +1,6 @@
 body
-{  
-    background-image: -webkit-radial-gradient(circle, rgb(255, 255, 255), #96ad90);
+{      
+    background-color: #96ad90;
 }
 
 h1
@@ -47,6 +47,7 @@ div.scroll-container
     width: 80%;
     height: 300px;
     border: 5px solid #f4b9b8;
+    background-color: #f7d6c0;
 }
 
 .spacing
@@ -93,7 +94,7 @@ button
     color: rgb(3, 0, 0);   
     width: 90%;
     height: 90%;
-    background-color: rgb(225, 231, 224);;
+    background-color: rgb(225, 231, 224);
     border-radius: 10%;
     padding: 10px;
     margin-left: 55px;
@@ -105,40 +106,57 @@ h2
 {
     font-size: 50px;
     text-align: center;
-    background-color: #96ad90;
+    background-color: #f7d6c0;
     width: 60%;
     margin-left: 20%;    
     color: #3a4a3d;
 }
 
-.TankCleaning
+.container 
 {
-    font-size: 50px;
-    text-align: center;
-    background-color: #96ad90;
-    width: 50%;
-    margin-left: 25%;
-    color: #3a4a3d;
-}
-.Cleartanks
-{
-    font-size: 50px;
-    text-align: center;
-    background-color: #96ad90;
-    color: #3a4a3d;
-    width: 60%;
-    margin-left: 20%;
-    
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.Filledtanks
+.container2 
 {
-    font-size: 50px;
-    text-align: center;
-    background-color: #96ad90;
-    color: #3a4a3d;
-    width: 60%;
-    margin-left: 20%;
-    
+    background-color: #ffffff;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 8px;    
+    padding: 2px;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.tab-button.active {
+    border-bottom: 2px solid #007BFF;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px 0;
+}
+
+.tab-content.active {
+    display: block;
 }
 

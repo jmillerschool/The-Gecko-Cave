@@ -1,0 +1,303 @@
+body
+{      
+    background-color: #96ad90;
+}
+
+h1
+{
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(8, 115, 196);
+    text-align: center; 
+    margin-top: 30px;  
+    background-color: #f7d6c0;
+}
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: -75px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: rgb(219, 232, 216);         
+}
+
+.Logo
+{
+   width: 90%;
+   margin-top: 20px;
+}
+
+a
+{
+   padding: 20px;  
+}
+
+
+h2
+{
+    font-size: 70px;
+    text-align: center;
+    background-color: #f7d6c0;
+    width: 60%;
+    margin-left: 20%;  
+    margin-top: 90px;  
+    color: #3a4a3d;
+    padding:  10px;
+}
+
+.Basic
+{
+    font-size: 25px;    
+    background-color: rgb(219, 232, 216);
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;    
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box 
+{
+    background: #f7d6c0;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h3 
+{
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+}
+
+ul 
+{
+    padding-left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+li 
+{
+    margin-bottom: 10px;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.tabs 
+{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.tab-button 
+{
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+.tab-button.active 
+{
+    border-bottom: 2px solid #007BFF;
+    font-weight: bold;
+    background: #e7f1ff;
+}
+
+.tab-content 
+{
+    display: none;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content.active 
+{
+    display: block;
+}
+
+.enclosure
+{
+    text-align: center;
+    font-size: 40px;    
+    border: 2px solid #f4b9b8;
+    background-color: #f7d6c0; 
+    width: 60%;
+    margin-left: 20%;    
+}
+    
+.container2
+ {
+    max-width: 80%;    
+    margin: auto;    
+    background-color: #fff;
+    border-radius: 8px;   
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding:  10px;
+    margin-top: 20px;
+
+}
+
+
+.subst 
+{
+    line-height: 1.6;
+}
+
+.boxSub 
+{
+    list-style-type: disc;
+    padding-left: 20px;
+    
+}
+
+.box2 
+{
+    background-color: #e0f7e0;
+    border: 1px solid #b2e0b2;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 95%;
+    margin-left: 1.5%;
+}
+
+strong 
+{
+    color: #4a8f4a;
+}
+
+.subTitle 
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #3a4a3d;
+    background-color: #f7d6c0;
+}
+
+.badSub 
+{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #f4b9b8;
+    width: 95%;
+    margin-left: 2.5%;
+    padding:  10px;
+
+}
+
+.container3 
+{
+    width: 90%;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.boxLight 
+{
+    background-color: rgb(225, 231, 224);
+    border: 1px solid #b2e0b2;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.boxLight2 
+{
+    background-color: #ffffff;
+    border: 1px solid #b2e0b2;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0; 
+    width: 80%;
+    margin-left: 10%;   
+}
+
+.container4
+ {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.boxFood
+{
+    background-color: #e0f7e0;
+    border: 1px solid #b2e0b2;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 95%;
+    margin-left: 1.5%;
+}
+
+.boxFood2
+{
+    background-color: #ffffff;
+    border: 1px solid #b2e0b2;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.container5
+ {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.boxCare 
+{    
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;background-color: #e8f0f2;
+}
+
+.boxCare2 
+{
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #d1e7dd;
+}
+
