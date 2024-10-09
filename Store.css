@@ -1,0 +1,93 @@
+body
+{      
+    background-color: #96ad90;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    margin-top: 30px;  
+    background-color: #f7d6c0;
+}
+
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: -75px;
+    margin-left: 22px;
+    margin-right: 22px;
+    background-color: rgb(219, 232, 216);         
+}
+
+header 
+{
+    text-align: center;
+    
+}
+
+.Logo
+{
+   width: 90%;
+   margin-top: 20px;
+}
+
+a
+{
+   padding: 20px;    
+}
+
+.container 
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;  
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 
+{
+    color: #3c6e71;
+}
+
+.info 
+{
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e8f0f2;
+    border-radius: 5px;
+    font-size:  18px;
+}
+
+.selection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.gecko-button {
+    background-color: #3c6e71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.gecko-button:hover {
+    background-color: #5b3e2e;
+}
+

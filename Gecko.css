@@ -2,7 +2,6 @@ body
 {  
     background-image: url('Backgrounds/1.jpg');    
     background-size: cover;
-
     background-repeat: no-repeat;
 }
 
@@ -54,6 +53,29 @@ a
     text-align: justify;
 }
 
+button
+{
+    background-color: #f4b9b8;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 6%; 
+    transition-duration: 0.4s;
+    width: 100px;
+}
+
+
+#walkArea 
+{
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+#walkingImage 
+{
+    position: absolute;
+    width: 10% ;
+    transition: transform 0.5s ease;
+}
 
 .column /* this is to make the columns for the images */
 {
@@ -76,5 +98,10 @@ a
 {
     border: 7px solid rgb(8, 8, 8);    
     border-radius: 175px; 
-    box-shadow: 10px 10px 5px rgb(0, 0, 0);    
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);  
+    width: 20%;  
 }
+
+
+
+

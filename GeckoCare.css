@@ -291,6 +291,8 @@ strong
     margin: 15px 0;
     padding: 15px;
     border-radius: 5px;background-color: #e8f0f2;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 .boxCare2 
@@ -299,5 +301,8 @@ strong
     padding: 15px;
     border-radius: 5px;
     background-color: #d1e7dd;
+    width: 90%;
+    margin-left: 5%;
+
 }
 
